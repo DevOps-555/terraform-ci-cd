@@ -2,7 +2,7 @@ terraform {
   # see https://releases.hashicorp.com/terraform/
   required_version = ">= 0.13.1"
   backend "gcs" {
-    bucket = "cloudorbit"
+    bucket = "terraform-state-bucket-001"
     prefix = "main"
   }
   required_providers {
